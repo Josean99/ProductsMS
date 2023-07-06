@@ -1,0 +1,412 @@
+[20:04:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:04:47 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:04:47 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:04:47 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:04:47 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 387.9384ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 4.8181ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - -
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - -
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:04:59 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-standalone-preset.js" was not modified
+[20:04:59 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui-bundle.js" was not modified
+[20:04:59 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/swagger-ui.css" was not modified
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 9.4949ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 9.8341ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 304 - text/css 15.2677ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.1542ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[20:04:59 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 9.3690ms
+[20:04:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:05:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.6522ms
+[20:07:23 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:07:23 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:07:23 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:07:23 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:07:23 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 512.6180ms
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 11.3181ms
+[20:07:25 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 0 143632 text/css 37.7015ms
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.2411ms
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[20:07:25 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:07:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 1.7347ms
+[20:07:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:07:26 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Categories/{id}" for actions - PatxiPersianasReadAPI.Controllers.CategoriesController.Get (PatxiPersianasReadAPI),PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[20:07:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 91.6953ms
+[20:08:08 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:08:08 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:08:08 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:08:08 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:08:08 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:08:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 500.7802ms
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 6.8105ms
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0623ms
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:08:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.3622ms
+[20:08:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:08:23 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:08:23 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:08:26 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("79"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:08:26 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.PatxiPersianasAPIContext"'."
+""System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[20:08:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 3195.9835ms
+[20:08:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:08:26 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Column 'IdImage' is null. 
+ 
+Exception GUID: 26bc2410-dcd1-4d12-99ef-9e507d06bd1e
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 21
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:08:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 3403.9830ms
+[20:08:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:08:42 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:08:42 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:08:50 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:08:50 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.PatxiPersianasAPIContext"'."
+""System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[20:08:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 7986.7083ms
+[20:08:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:08:50 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Column 'IdImage' is null. 
+ 
+Exception GUID: 249f5423-e14d-44cf-9517-7db0bf911f85
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 21
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:08:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 8040.4608ms
+[20:09:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:09:13 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:09:13 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:09:16 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:09:16 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"DBContext.PatxiPersianasAPIContext"'."
+""System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[20:09:16 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 2907.6858ms
+[20:09:16 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:09:16 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Column 'IdImage' is null. 
+ 
+Exception GUID: a21b3a66-e6a6-4bed-a742-f0189e6f5c31
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.InvalidCastException: Column 'IdImage' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at lambda_method20(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 21
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:09:16 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 10215.2981ms
+[20:13:01 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:13:01 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:13:01 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:13:01 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:13:01 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:13:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 505.6664ms
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 7.0507ms
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:13:03 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 0 143632 text/css 20.2161ms
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5163ms
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[20:13:03 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 2.3448ms
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:13:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.6793ms
+[20:13:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:13:14 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:13:14 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:13:18 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:13:53 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 39080.3711ms
+[20:13:53 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:13:53 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ An item with the same key has already been added. Key: 0 
+ 
+Exception GUID: f27077b5-7df3-4733-afda-c3a09c7ffa88
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.ArgumentException: An item with the same key has already been added. Key: 0
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 28
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:13:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 39279.8065ms
+[20:14:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:14:06 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:14:06 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:14:06 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:14:32 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 25622.5134ms
+[20:14:32 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:14:32 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ An item with the same key has already been added. Key: 0 
+ 
+Exception GUID: 3b833c71-41ff-495c-a3ad-996700c90145
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.ArgumentException: An item with the same key has already been added. Key: 0
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 28
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:14:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 25671.6993ms
+[20:14:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:14:37 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:14:37 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:14:37 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:15:06 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 28822.5113ms
+[20:15:06 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:15:06 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ An item with the same key has already been added. Key: 0 
+ 
+Exception GUID: 8fb99760-8cb3-4dd0-8fc5-c17009b547aa
+Infrastructure.Exceptions.Entities.GenericException
+ ---> System.ArgumentException: An item with the same key has already been added. Key: 0
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at ReadRepositories.CategoriesReadRepository.GetBreadCrumb(Guid sonCategoryId) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadRepositories\CategoriesReadRepository.cs:line 28
+   at ReadBusinessLayer.CategoriesReadService.GetBreadCrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\ReadBusinessLayer\CategoriesReadService.cs:line 55
+   at PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb(Guid id) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\Controllers\CategoriesController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[20:15:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 500 - application/json 28867.4818ms
+[20:15:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:15:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:15:34 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:15:34 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:15:34 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 513.6433ms
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - -
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 8.4731ms
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:15:36 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/swagger-ui.css - - - 0 143632 text/css 33.7705ms
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2738ms
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[20:15:36 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:15:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 2.0897ms
+[20:15:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:15:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.5610ms
+[20:15:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:15:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:15:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:15:45 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:15:49 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[20:15:49 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 6419.1636ms
+[20:15:49 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:15:49 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 200 0 - 6486.9229ms
+[20:16:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:16:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:16:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:16:01 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:17:33 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[20:17:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 92083.4521ms
+[20:17:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:17:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 0 - - 92089.5119ms
+[20:17:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:17:41 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.Get (PatxiPersianasReadAPI)"'
+[20:17:41 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:17:41 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("15"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\"
+FROM \"Categories\" AS c
+WHERE c.\"Id\" = @__id_0
+LIMIT 1"
+[20:17:41 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[20:17:41 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.Get (PatxiPersianasReadAPI)" in 128.5301ms
+[20:17:41 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.Get (PatxiPersianasReadAPI)"'
+[20:17:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 200 0 - 131.7461ms
+[20:18:04 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7041"
+[20:18:04 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5041"
+[20:18:04 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[20:18:04 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[20:18:04 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasReadAPI\"
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 494.4256ms
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/_vs/browserLink - -
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 10.6743ms
+[20:18:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.2201ms
+[20:18:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - -
+[20:18:07 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[20:18:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/favicon-32x32.png - - - 0 628 image/png 16.9429ms
+[20:18:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+[20:18:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.7361ms
+[20:18:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - -
+[20:18:21 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:18:21 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetBreadcrumb\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBreadcrumb(System.Guid)" on controller "PatxiPersianasReadAPI.Controllers.CategoriesController" ("PatxiPersianasReadAPI").
+[20:18:24 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT c.\"Id\", c.\"FechaBaja\", c.\"Icon\", c.\"IdFatherCategory\", c.\"IdImage\", c.\"Name\", c0.\"Id\", c0.\"FechaBaja\", c0.\"Icon\", c0.\"IdFatherCategory\", c0.\"IdImage\", c0.\"Name\"
+FROM \"Categories\" AS c
+LEFT JOIN \"Categories\" AS c0 ON c.\"IdFatherCategory\" = c0.\"Id\""
+[20:18:27 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[DTOs.ResponseDTOs.CategoryResponseDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[20:18:27 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)" in 5998.7619ms
+[20:18:27 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasReadAPI.Controllers.CategoriesController.GetBreadcrumb (PatxiPersianasReadAPI)"'
+[20:18:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7041/api/Categories/GetBreadcrumb/9c2b0d83-bd36-424f-80a3-99ce6a256323 - - - 200 - application/json;+charset=utf-8 6067.8031ms

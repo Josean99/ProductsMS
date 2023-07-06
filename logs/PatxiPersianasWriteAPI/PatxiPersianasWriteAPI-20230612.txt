@@ -1,0 +1,278 @@
+[21:30:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:30:43 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:30:43 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:30:43 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:30:43 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:30:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 646.2253ms
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 11.8542ms
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.8617ms
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:30:47 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 20.0919ms
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:30:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.3351ms
+[21:32:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 127
+[21:32:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:32:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:32:25 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:32:25 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 909.6089ms
+[21:32:25 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:32:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 127 - 400 - application/problem+json;+charset=utf-8 978.2530ms
+[21:33:13 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:33:13 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:33:13 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:33:13 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:33:13 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:33:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 453.8377ms
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 6.5180ms
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1385ms
+[21:33:15 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 0 143632 text/css 27.9500ms
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:33:15 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 1.9155ms
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:33:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.3884ms
+[21:33:34 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:33:35 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:33:35 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:33:35 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:33:35 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:33:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:33:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 499.5844ms
+[21:33:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:33:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 8.1966ms
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.7381ms
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:33:37 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 15.5540ms
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:33:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.1835ms
+[21:33:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 127
+[21:33:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:33:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:33:50 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:33:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 365.5046ms
+[21:33:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:33:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 127 - 400 - application/problem+json;+charset=utf-8 420.4968ms
+[21:34:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:34:36 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:34:36 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:34:36 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:34:36 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 510.7412ms
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 7.8434ms
+[21:34:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 0 143632 text/css 22.6192ms
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.0160ms
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:34:38 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 2.4613ms
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:34:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.6901ms
+[21:34:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 127
+[21:34:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:34:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:34:46 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:34:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 349.5734ms
+[21:34:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:34:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 127 - 400 - application/problem+json;+charset=utf-8 403.9515ms
+[21:35:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Images application/json 101
+[21:35:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:35:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Images\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.ImageRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.ImagesController" ("PatxiPersianasWriteAPI").
+[21:35:57 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:35:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)" in 11.5557ms
+[21:35:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:35:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Images application/json 101 - 400 - application/problem+json;+charset=utf-8 15.7893ms
+[21:37:02 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:37:02 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:37:02 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:37:02 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:37:02 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 526.8741ms
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 15.8504ms
+[21:37:04 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 0 143632 text/css 44.6221ms
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.3390ms
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:37:04 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 1.7077ms
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:37:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.5310ms
+[21:37:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Images application/json 93
+[21:37:23 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:37:23 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Images\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.ImageRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.ImagesController" ("PatxiPersianasWriteAPI").
+[21:37:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)" in 506.1193ms
+[21:37:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:37:24 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ImageRequestDTO -> Image
+DTOs.RequestDTOs.ImageRequestDTO -> EntityService.Model.Image 
+ 
+Exception GUID: 2cd9b36a-4131-4211-96e9-3e6c276a58a2
+Infrastructure.Exceptions.Entities.GenericException
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ImageRequestDTO -> Image
+DTOs.RequestDTOs.ImageRequestDTO -> EntityService.Model.Image
+   at lambda_method18(Closure , ImageRequestDTO , Image , ResolutionContext )
+   at WriteBusinessLayer.ImagesWriteService.Create(ImageRequestDTO dto) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\BusinessLayer\ImagesWriteService.cs:line 29
+   at PatxiPersianasWriteAPI.Controllers.ImagesController.Create(ImageRequestDTO imageDTO) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\Controllers\ImagesController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[21:37:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Images application/json 93 - 500 - application/json 684.1167ms
+[21:37:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Images application/json 93
+[21:37:39 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:37:39 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Images\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.ImageRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.ImagesController" ("PatxiPersianasWriteAPI").
+[21:37:46 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)" in 6658.5582ms
+[21:37:46 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:37:59 Infrastructure.Exceptions.ExceptionHandlingMiddleware [Error] [Exception] - WEB API: ArquitecturaWebAPI 
+ Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ImageRequestDTO -> Image
+DTOs.RequestDTOs.ImageRequestDTO -> EntityService.Model.Image 
+ 
+Exception GUID: 937c8504-26cf-4837-8baa-d98fa66efb2a
+Infrastructure.Exceptions.Entities.GenericException
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ImageRequestDTO -> Image
+DTOs.RequestDTOs.ImageRequestDTO -> EntityService.Model.Image
+   at lambda_method18(Closure , ImageRequestDTO , Image , ResolutionContext )
+   at WriteBusinessLayer.ImagesWriteService.Create(ImageRequestDTO dto) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\BusinessLayer\ImagesWriteService.cs:line 29
+   at PatxiPersianasWriteAPI.Controllers.ImagesController.Create(ImageRequestDTO imageDTO) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\Controllers\ImagesController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrastructure.Exceptions.ExceptionHandlingMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\Infrastructure\Exceptions\ExceptionHandlingMiddleware.cs:line 34
+   --- End of inner exception stack trace ---
+[21:37:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Images application/json 93 - 500 - application/json 20328.0746ms
+[21:38:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Images application/json 93
+[21:38:28 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:38:28 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Images\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.ImageRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.ImagesController" ("PatxiPersianasWriteAPI").
+[21:38:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)" in 4642.7343ms
+[21:38:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:42:27 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:42:27 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:42:27 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:42:27 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:42:27 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:42:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 534.6790ms
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 6.7021ms
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:42:29 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 0 143632 text/css 26.2155ms
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6983ms
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:42:29 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 2.6871ms
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:42:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.8084ms
+[21:42:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Images application/json 93
+[21:42:38 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:42:38 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Images\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.ImageRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.ImagesController" ("PatxiPersianasWriteAPI").
+[21:42:46 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("88"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Images\" (\"Id\", \"AlternativeText\", \"FechaBaja\", \"Path\")
+VALUES (@p0, @p1, @p2, @p3);"
+[21:42:51 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[21:42:51 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)" in 12251.364ms
+[21:42:51 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.ImagesController.Create (PatxiPersianasWriteAPI)"'
+[21:42:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Images application/json 93 - 200 0 - 12323.9721ms
+[21:46:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 161
+[21:46:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:46:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:46:24 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:46:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 49.8114ms
+[21:46:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:46:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 161 - 400 - application/problem+json;+charset=utf-8 55.2979ms
+[21:46:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 159
+[21:46:37 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:46:37 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:46:37 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[21:46:37 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 2.847ms
+[21:46:37 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:46:37 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 159 - 400 - application/problem+json;+charset=utf-8 3.7675ms
+[21:48:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[21:48:30 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[21:48:30 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[21:48:30 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[21:48:30 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 504.0534ms
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - -
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 10.4973ms
+[21:48:31 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/swagger-ui.css - - - 0 143632 text/css 38.3168ms
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4663ms
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[21:48:31 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[21:48:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 1.8188ms
+[21:48:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[21:48:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.0879ms
+[21:48:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Categories application/json 159
+[21:48:38 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:48:38 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Categories\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.CategoryRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.CategoriesController" ("PatxiPersianasWriteAPI").
+[21:48:45 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("126"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Categories\" (\"Id\", \"FechaBaja\", \"Icon\", \"IdFatherCategory\", \"IdImage\", \"Name\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+[21:48:45 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[21:48:45 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)" in 7440.2715ms
+[21:48:45 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.CategoriesController.Create (PatxiPersianasWriteAPI)"'
+[21:48:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Categories application/json 159 - 200 0 - 7513.2310ms
+[21:49:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 POST https://localhost:7152/api/Brands application/json 149
+[21:49:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"PatxiPersianasWriteAPI.Controllers.BrandsController.Create (PatxiPersianasWriteAPI)"'
+[21:49:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"Brands\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DTOs.RequestDTOs.BrandRequestDTO)" on controller "PatxiPersianasWriteAPI.Controllers.BrandsController" ("PatxiPersianasWriteAPI").
+[21:49:26 Microsoft.EntityFrameworkCore.Database.Command [Information] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Guid), @p4='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Brands\" (\"Id\", \"Description\", \"FechaBaja\", \"IdImage\", \"Name\")
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+[21:49:26 Microsoft.AspNetCore.Mvc.StatusCodeResult [Information] Executing StatusCodeResult, setting HTTP status code 200
+[21:49:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "PatxiPersianasWriteAPI.Controllers.BrandsController.Create (PatxiPersianasWriteAPI)" in 85.2947ms
+[21:49:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"PatxiPersianasWriteAPI.Controllers.BrandsController.Create (PatxiPersianasWriteAPI)"'
+[21:49:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 POST https://localhost:7152/api/Brands application/json 149 - 200 0 - 93.4092ms

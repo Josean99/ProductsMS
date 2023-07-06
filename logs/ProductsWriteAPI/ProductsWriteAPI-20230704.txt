@@ -1,0 +1,29 @@
+[18:41:59 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[18:41:59 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[18:41:59 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[18:41:59 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[18:41:59 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[18:42:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 660.5886ms
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.2879ms
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.9160ms
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - -
+[18:42:02 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/favicon-32x32.png - - - 0 628 image/png 18.7163ms
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[18:42:02 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 192.4297ms
+[18:43:12 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7152"
+[18:43:12 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5152"
+[18:43:12 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[18:43:12 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[18:43:12 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Josean\Desktop\PatxiPersianasWriteAPI\PatxiPersianasWriteAPI\"
+[18:43:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/index.html - -
+[18:43:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/index.html - - - 200 - text/html;charset=utf-8 584.1277ms
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_vs/browserLink - -
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - -
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 17.7109ms
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.1369ms
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - -
+[18:43:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/2 GET https://localhost:7152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.3444ms
