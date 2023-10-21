@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9EOicwD3aL3Cjr48bZ+BJ8263PNYJ5Ovy2U2+npigQS7GqkWYAf9yw2+Obs/O5c00Kw2sy7BBxd66wiXRJ3ggw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\IReadRepositories\\IReadRepositories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josean\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
