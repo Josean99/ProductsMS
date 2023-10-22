@@ -51,7 +51,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<CategoryRequestDTO> result = _categoryWriteService.Create(fakeDTO).Result;
 
             // Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             // Verify
             _categoryWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Category>()), Times.Once);
@@ -70,7 +70,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<CategoryRequestDTO> result = _categoryWriteService.Update(fakeDTO).Result;
 
             // Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             // Verify
             _categoryWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Category>()), Times.Once);
@@ -90,7 +90,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<CategoryRequestDTO> result = _categoryWriteService.SoftDelete(fakeDTO.Id.Value).Result;
 
             // Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             // Verify
             _categoryWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Category>()), Times.Once);

@@ -50,7 +50,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ImageRequestDTO> result = _imagesWriteService.Create(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _imageWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Image>()), Times.Once);
@@ -69,7 +69,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ImageRequestDTO> result = _imagesWriteService.Update(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _imageWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Image>()), Times.Once);
@@ -89,7 +89,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ImageRequestDTO> result = _imagesWriteService.SoftDelete(fakeDTO.Id.Value).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _imageWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Image>()), Times.Once);

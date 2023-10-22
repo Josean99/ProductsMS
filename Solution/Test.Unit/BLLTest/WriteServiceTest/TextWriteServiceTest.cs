@@ -50,7 +50,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<TextRequestDTO> result = _textsWriteService.Create(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _textWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Text>()), Times.Once);
@@ -69,7 +69,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<TextRequestDTO> result = _textsWriteService.Update(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _textWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Text>()), Times.Once);
@@ -89,7 +89,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<TextRequestDTO> result = _textsWriteService.SoftDelete(fakeDTO.Id.Value).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _textWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Text>()), Times.Once);

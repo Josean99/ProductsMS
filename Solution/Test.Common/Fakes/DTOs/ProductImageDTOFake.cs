@@ -57,6 +57,56 @@ namespace Test.Common.Fakes.DTOs
 
             return fakeProductImagesDTO;
         }
+
+        public static List<ProductImageRequestDTO> InsProductImagesRequestDTO_1()
+        {
+            var fakeProductImagesDTO = new List<ProductImageRequestDTO>
+                {
+                    new ProductImageRequestDTO
+                    {
+                        Id = null,
+                        Priority = 1,
+                        IdProduct = null,
+                        IdImage = Guid.Parse("05245c24-6e1c-4d62-97e8-0d377b5579e7"),
+                        FechaBaja = null,
+                    },
+                    new ProductImageRequestDTO
+                    {
+                        Id = null,
+                        Priority = 2,
+                        IdProduct = null,
+                        IdImage = Guid.Parse("42236d70-4bb8-4d60-b636-df3e9504b346"),
+                        FechaBaja = DateTime.Now,
+                    }
+                };
+
+            return fakeProductImagesDTO;
+        }
+
+        public static List<ProductImageRequestDTO> InsProductImagesRequestDTO_2()
+        {
+            var fakeProductImagesDTO = new List<ProductImageRequestDTO>
+                {
+                    new ProductImageRequestDTO
+                    {
+                        Id = null,
+                        Priority = 1,
+                        IdProduct = null,
+                        IdImage = Guid.Parse("6c4c227d-5911-4b43-8d8a-6dbd97e0ab71"),
+                        FechaBaja = null,
+                    },
+                    new ProductImageRequestDTO
+                    {
+                        Id = null,
+                        Priority = 2,
+                        IdProduct = null,
+                        IdImage = Guid.Parse("7ee532aa-bbd9-419f-89a9-52d8336e4c35"),
+                        FechaBaja = DateTime.Now,
+                    }
+                };
+
+            return fakeProductImagesDTO;
+        }
         #endregion
     }
 }

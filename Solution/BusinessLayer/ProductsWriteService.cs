@@ -46,13 +46,15 @@ namespace WriteBusinessLayer
 
         public async Task<Result<ProductWithImagesRequestDTO>> CreateProductWithImages(ProductWithImagesRequestDTO productWithImagesDTO)
         {
-            var result = new Result<ProductWithImagesRequestDTO>().Ok(productWithImagesDTO);
+            Result<ProductWithImagesRequestDTO> result = null;
             using (IDbContextTransaction transaction = _productWriteRepository.GetUnitOfWork().Result.GetTransaction())
             {
                 try
                 {
                     Product product = _mapper.Map<ProductWithImagesRequestDTO, Product>(productWithImagesDTO);
                     await _productWriteRepository.Create(product);
+                    var dtoCreated = _mapper.Map<Product, ProductWithImagesRequestDTO>(product);
+                    result = new Result<ProductWithImagesRequestDTO>().Ok(dtoCreated);                    
 
                     //List<ProductImage> productImages = _mapper.Map<List<ProductImageRequestDTO>, List<ProductImage>>(productWithImagesDTO.ProductImages);
 
@@ -72,6 +74,7 @@ namespace WriteBusinessLayer
                     //Task.WaitAll(taskList.ToArray());
                     result.AddInfoMessage($"Product with Id [{product.Id}] Created");
                     await _productWriteRepository.Save();
+                    await _productWriteRepository.Detached(product);
                     transaction.Commit();
                     result.AddInfoMessage($"Commit done");
                 }
@@ -104,9 +107,9 @@ namespace WriteBusinessLayer
                 {
                     Product product = await _baseReadRepository.GetFirstByCondition<Product>(p => p.Id == productWithImagesDTO.Id, p=>p.ProductImages);
                     IQueryable<ProductImage> currentProductImages = await _baseReadRepository.GetByCondition<ProductImage>(pi => pi.IdProduct == product.Id); //ProductImages actuales del producto
-                    List<ProductImage> currentProductImagesDown = currentProductImages.Where(pi => pi.FechaBaja == null).Where(i => productWithImagesDTO.ProductImages.Select(pi => pi.Id).Contains(i.Id)).ToList(); //ProductImages a dar de baja
-                    List<ProductImage> currentProductImagesUp = currentProductImages.Where(pi => pi.FechaBaja != null).Where(i => productWithImagesDTO.ProductImages.Select(pi => pi.Id).Contains(i.Id)).ToList(); //ProductImages a dar de alta
-                    List<ProductImageRequestDTO> productImagesDTOToCreate = productWithImagesDTO.ProductImages.Where(i => !currentProductImages.ToList().Select(pi => pi.Id).ToList().Contains(i.Id.Value)).ToList(); //ProductImages a crear
+                    List<ProductImage> currentProductImagesDown = currentProductImages.ToList().Where(pi => pi.FechaBaja == null).Where(i => productWithImagesDTO.ProductImages.Where(pi2 => pi2.FechaBaja != null).Select(pi => pi.Id).Contains(i.Id)).ToList(); //ProductImages a dar de baja
+                    List<ProductImage> currentProductImagesUp = currentProductImages.ToList().Where(pi => pi.FechaBaja != null).Where(i => productWithImagesDTO.ProductImages.Where(pi2 => pi2.FechaBaja == null).Select(pi => pi.Id).Contains(i.Id)).ToList(); //ProductImages a dar de alta
+                    List<ProductImageRequestDTO> productImagesDTOToCreate = productWithImagesDTO.ProductImages.Where(i => i.Id == null).ToList(); //ProductImages a crear
 
                     var taskList = new List<Task>();
                     foreach (ProductImage productImageToDown in currentProductImagesDown)
@@ -137,6 +140,8 @@ namespace WriteBusinessLayer
                     result.AddInfoMessage($"Product with Id [{product.Id}] Updated");
 
                     await _productWriteRepository.Save();
+                    await _productWriteRepository.Detached(product);
+                    currentProductImages.ToList().ForEach(x=> _productImageWriteRepository.Detached(x));
                     transaction.Commit();
                     result.AddInfoMessage($"Commit done");
 

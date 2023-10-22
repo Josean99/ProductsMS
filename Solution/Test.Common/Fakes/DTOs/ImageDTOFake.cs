@@ -38,6 +38,7 @@ namespace Test.Common.Fakes.DTOs
 
             return fakeImageDTO;
         }
+
         #endregion
     }
 }

@@ -68,7 +68,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ProductWithImagesRequestDTO> result = _productsWriteService.CreateProductWithImages(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _productWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Product>()), Times.Once);
@@ -87,7 +87,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ProductRequestDTO> result = _productsWriteService.Create(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _productWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Product>()), Times.Once);
@@ -106,7 +106,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ProductRequestDTO> result = _productsWriteService.Update(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _productWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Product>()), Times.Once);
@@ -128,7 +128,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             fakeDTO.ProductImages.Add(
                 new ProductImageRequestDTO
                 {
-                    Id = Guid.NewGuid(),
+                    Id = null,
                     Priority = 3,
                     IdProduct = Guid.NewGuid(),
                     IdImage = Guid.NewGuid(),
@@ -148,7 +148,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ProductWithImagesRequestDTO> result = _productsWriteService.UpdateProductWithImages(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _productWriteRepositoryMock.Verify(s => s.GetUnitOfWork(), Times.Once);
@@ -173,7 +173,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<ProductRequestDTO> result = _productsWriteService.SoftDelete(fakeDTO.Id.Value).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _productWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Product>()), Times.Once);

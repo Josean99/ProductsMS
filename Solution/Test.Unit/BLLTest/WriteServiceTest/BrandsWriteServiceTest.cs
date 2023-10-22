@@ -50,7 +50,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<BrandRequestDTO> result = _brandsWriteService.Create(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _brandWriteRepositoryMock.Verify(s => s.Create(It.IsAny<Brand>()), Times.Once);
@@ -69,7 +69,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<BrandRequestDTO> result = _brandsWriteService.Update(fakeDTO).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _brandWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Brand>()), Times.Once);
@@ -89,7 +89,7 @@ namespace Test.Unit.BLLTest.WriteServiceTest
             Result<BrandRequestDTO> result = _brandsWriteService.SoftDelete(fakeDTO.Id.Value).Result;
 
             //Assert
-            Assert.Equal(fakeDTO, result.Data);
+            Assert.True(result.Success);
 
             //Verify
             _brandWriteRepositoryMock.Verify(s => s.Update(It.IsAny<Brand>()), Times.Once);

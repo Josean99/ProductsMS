@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GTerZKMpEYahiBFSeIn00gAJHb8A2/haeL9dWuz0dCzB51VQOOwOBpIG4C2ZOAIxo3rlcuChJU6VjqlXKIFxQQ==",
+  "dgSpecHash": "RIXH5aLZ0c1rsBvotKNWAFZ8HVUSYEKIdzWxaCHI8EM7z60oMVVhiqQYQWl5ZOFY9ovQgkrTwAJ5u0NV3u2jhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Josean\\Desktop\\Fuentes\\ProductsMS\\Solution\\Test.Integration2\\Test.Integration2.csproj",
   "expectedPackageFiles": [
@@ -190,7 +190,9 @@
     "C:\\Users\\Josean\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Josean\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\system.threading.tasks.dataflow.6.0.0.nupkg.sha512",
     "C:\\Users\\Josean\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Josean\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Josean\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Josean\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Josean\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
