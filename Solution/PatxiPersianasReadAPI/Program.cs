@@ -1,9 +1,12 @@
 using DBContext;
 using DTOs.Mappers;
 using Infrastructure;
+using Infrastructure.Auth;
 using Infrastructure.Exceptions;
 using Infrastructure.Logging;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,9 +31,18 @@ builder.Services.AddAutoMapper(typeof(BrandsMapperProfile));
 builder.Services.AddMemoryCache();
 
 builder.Services.AddControllers();
+
+var authority = builder.Configuration.GetSection("Authority:ClientId").Value;
+builder.Services.RegisterAuthentication(authority);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.RegisterSwagger();
+
+builder.Services.RegisterAuthorization();
+
+
 
 var app = builder.Build();
 
@@ -45,6 +57,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

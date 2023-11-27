@@ -31,6 +31,7 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\DBContext.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\DTOs.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\EntityService.dll
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\ExternalServices.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\IReadRepositories.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\IWriteBusinessLayer.dll
@@ -42,6 +43,7 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\IReadRepositories.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\IWriteRepository.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\DBContext.pdb
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\bin\Debug\net6.0\ExternalServices.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\obj\Debug\net6.0\WriteBusinessLayer.csproj.AssemblyReference.cache
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\obj\Debug\net6.0\WriteBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\BusinessLayer\obj\Debug\net6.0\WriteBusinessLayer.AssemblyInfoInputs.cache

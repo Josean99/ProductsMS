@@ -22,10 +22,12 @@ C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\IWriteBusinessLayer.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\DTOs.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\EntityService.dll
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\ExternalServices.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\DTOs.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\EntityService.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\bin\Debug\net6.0\ExternalServices.pdb
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\obj\Debug\net6.0\IWriteBusinessLayer.csproj.AssemblyReference.cache
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\obj\Debug\net6.0\IWriteBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Josean\Desktop\Fuentes\ProductsMS\Solution\IBusinessLayer\obj\Debug\net6.0\IWriteBusinessLayer.AssemblyInfoInputs.cache

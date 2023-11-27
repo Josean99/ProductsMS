@@ -15,6 +15,24 @@ using ReadRepositories;
 using ReadRepositories.Base;
 using WriteBusinessLayer;
 using WriteRepository.Base;
+using DBContext;
+using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using Infrastructure;
+using Infrastructure.Logging;
+using Infrastructure.Exceptions;
+using DTOs.Mappers;
+//using Infrastructure.auth;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication;
+using Infrastructure.Auth;
+using ExternalServices.Interfaces;
+using ExternalServices.Implementation;
+using Infrastructure.auth;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace Infrastructure
 {
@@ -53,6 +71,8 @@ namespace Infrastructure
             services.AddScoped<IProductsReadService, ProductsReadService>();
             services.AddScoped<ITextsReadService, TextsReadService>();
 
+            services.AddScoped<IJwtService, JwtService>();
+
             return services;
         }
 
@@ -82,6 +102,102 @@ namespace Infrastructure
             services.AddScoped<IValidator<Product>, ProductValidator>();
             services.AddScoped<IValidator<ProductImage>, ProductImageValidator>();
             services.AddScoped<IValidator<Text>, TextValidator>();
+
+            return services;
+        }
+
+        public static IServiceCollection RegisterAuthorization(this IServiceCollection services)
+        {
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin", policy =>
+                {
+                    policy.Requirements.Add(new AccessRequirement());
+                });
+                options.DefaultPolicy = options.GetPolicy("Admin");
+            });
+
+            services.AddScoped<IAuthorizationHandler, AccessHandler>();
+
+            return services;
+        }
+
+        public static IServiceCollection RegisterAuthentication(this IServiceCollection services, string clientId)
+        {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        //ValidAudience = builder.Configuration["Jwt:Audience"],
+                        //ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(clientId))
+                    };
+                });
+                
+
+            //services.AddAuthentication("BasicAuthentication")
+            //    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);           
+
+            return services;
+        }
+
+        public static IServiceCollection RegisterSwagger(this IServiceCollection services)
+        {
+            services.AddSwaggerGen(c =>
+            {
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "bearer",
+                    BearerFormat = "JWT"
+                });
+
+                c.AddSecurityDefinition("basic", new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "basic",
+                    In = ParameterLocation.Header,
+                    Description = "Basic Authorization header using the Bearer scheme."
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] { }
+                    },
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "basic"
+                            }
+                        },
+                        new[] { "DemoSwaggerDifferentAuthScheme" }
+                    }
+                });
+
+            });
 
             return services;
         }

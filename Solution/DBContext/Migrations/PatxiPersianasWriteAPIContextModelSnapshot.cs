@@ -29,17 +29,15 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("IdImage")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -57,20 +55,18 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Icon")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid?>("IdFatherCategory")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("IdImage")
+                    b.Property<Guid?>("IdImage")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -90,14 +86,12 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("AlternativeText")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Path")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -112,11 +106,10 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("IdBrand")
                         .HasColumnType("uuid");
@@ -125,7 +118,6 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -144,7 +136,7 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("IdImage")
                         .HasColumnType("uuid");
@@ -171,14 +163,12 @@ namespace DBContext.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Code")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("FechaBaja")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Value")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -205,9 +195,7 @@ namespace DBContext.Migrations
 
                     b.HasOne("EntityService.Model.Image", "Image")
                         .WithOne("Category")
-                        .HasForeignKey("EntityService.Model.Category", "IdImage")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EntityService.Model.Category", "IdImage");
 
                     b.Navigation("FatherCategory");
 
@@ -266,11 +254,9 @@ namespace DBContext.Migrations
 
             modelBuilder.Entity("EntityService.Model.Image", b =>
                 {
-                    b.Navigation("Brand")
-                        .IsRequired();
+                    b.Navigation("Brand");
 
-                    b.Navigation("Category")
-                        .IsRequired();
+                    b.Navigation("Category");
 
                     b.Navigation("ProductImages");
                 });

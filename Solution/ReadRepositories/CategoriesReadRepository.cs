@@ -2,6 +2,7 @@
 using EntityService.Model;
 using IReadRepositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using ReadRepositories.Base;
 
 namespace ReadRepositories
@@ -9,7 +10,7 @@ namespace ReadRepositories
     public class CategoriesReadRepository : BaseReadRepository, ICategoriesReadRepository
     {
         public ProductsAPIContext _dbContext { get; }
-        public CategoriesReadRepository(ProductsAPIContext dbContext) : base(dbContext)
+        public CategoriesReadRepository(ProductsAPIContext dbContext, IMemoryCache cache) : base(dbContext, cache)
         {
             _dbContext = dbContext;
         }
