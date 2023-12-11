@@ -17,7 +17,6 @@ namespace ProductsWriteAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = "Bearer", Policy = "Admin")]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoriesWriteService _categoriesWriteService;

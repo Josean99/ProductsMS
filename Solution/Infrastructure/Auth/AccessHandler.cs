@@ -42,7 +42,7 @@ namespace Infrastructure.auth
                     List<Guid> roles = JsonConvert.DeserializeObject<List<Guid>>(rolesClaim.Value);
                     GetAllowedMethodsDto dto = new GetAllowedMethodsDto()
                     {
-                        idMicroservice = Guid.Parse(_configuration.GetSection("Authority:ClientId").Value),
+                        idMicroservice = Guid.Parse(_configuration.GetSection("Authority:MicroserviceId").Value),
                         token = this.httpContextAccessor.HttpContext.GetTokenAsync("Authorization").Result
                     };
                     methods = _jwtService.GetAllowedMethods(dto);

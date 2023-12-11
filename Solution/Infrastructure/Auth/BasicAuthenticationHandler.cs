@@ -45,7 +45,7 @@ namespace Infrastructure.Auth
                 string jwtToken = _jwtService.Login(new Jwt.Services.DTOs.LoginUserDto() { UserName = user, Password = password });
                 Response.Headers.Add("BearerToken", jwtToken);
 
-                List<string> methods = _jwtService.GetAllowedMethods(new Jwt.Services.DTOs.GetAllowedMethodsDto() { token = jwtToken, idMicroservice = Guid.Parse(_configuration.GetSection("Authority:ClientId").Value) });
+                List<string> methods = _jwtService.GetAllowedMethods(new Jwt.Services.DTOs.GetAllowedMethodsDto() { token = jwtToken, idMicroservice = Guid.Parse(_configuration.GetSection("Authority:MicroserviceId").Value) });
                 string methodsJson = JsonConvert.SerializeObject(methods);
                 var claims = new[] {
                     new Claim("AllowedMethods", methodsJson)

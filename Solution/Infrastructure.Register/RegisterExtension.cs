@@ -122,28 +122,31 @@ namespace Infrastructure
             return services;
         }
 
-        public static IServiceCollection RegisterAuthentication(this IServiceCollection services, string clientId)
+        public static IServiceCollection RegisterAuthentication(this IServiceCollection services)
         {
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.RequireHttpsMetadata = false;
-                    options.SaveToken = true;
-                    options.TokenValidationParameters = new TokenValidationParameters()
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
-                        //ValidAudience = builder.Configuration["Jwt:Audience"],
-                        //ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(clientId))
-                    };
-                });
-                
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //    .AddJwtBearer(options =>
+            //    {
+            //        options.RequireHttpsMetadata = false;
+            //        options.SaveToken = true;
+            //        options.TokenValidationParameters = new TokenValidationParameters()
+            //        {
+            //            ValidateIssuer = true,
+            //            ValidateAudience = true,
+            //            ValidateLifetime = true,
+            //            ValidateIssuerSigningKey = true,
+            //            //ValidAudience = builder.Configuration["Jwt:Audience"],
+            //            //ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            //            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(clientId))
+            //        };
+            //    });
+
 
             //services.AddAuthentication("BasicAuthentication")
-            //    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);           
+            //    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+
+            services.AddAuthentication("Bearer")
+                .AddScheme<AuthenticationSchemeOptions, JwtAuthenticationHandler>("Bearer", null);
 
             return services;
         }

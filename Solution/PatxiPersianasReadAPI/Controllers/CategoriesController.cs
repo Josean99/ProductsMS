@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
 using IReadBusinessLayer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ProductsReadAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     public class CategoriesController : ControllerBase
     {
         private readonly IMapper _mapper;
